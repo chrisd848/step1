@@ -1,4 +1,4 @@
-package projectsProgram;
+//package projectsProgram;
 
 public class Project {
 	
@@ -7,8 +7,8 @@ public class Project {
 	private String endDate;
 	
 	public String toString() {
-		String projectDetails = new String();
-		projectDetails += "Project Title" + "\t" + "\t" + "\t" + title + "\n"
+		String projectDetails = "";
+		projectDetails += "Project Title" + "\t" + "\t" + "\t" + "\t" + title + "\n"
 				+ "Expected start/end dates" + "\t" + startDate + " - "
 				+ endDate;
 		return projectDetails;
