@@ -37,7 +37,6 @@ public class Company {
 			System.out.println("Project list is empty");
 		} else {
 			Collections.sort(projects);
-			System.out.print("PROJECT DETAILS\n");
 			for (Project project: projects) {
 				displayProject(project);
 			}

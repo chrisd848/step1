@@ -14,7 +14,6 @@ public class CompanyTest {
 							"2) Remove a project\n" +
 							"3) Find a project\n" +
 							"4) Display all projects\n" +
-							"9) Test data (delete me later)\n" +
 							"0) Quit\n" +
 							"Option: ");
 					break;
@@ -55,7 +54,6 @@ public class CompanyTest {
 						System.out.println("The project " + '"' + projectTitle + '"' + " could not be found");
 					} else {
 						System.out.println("The project " + '"' + projectTitle + '"' + " has been found:");
-						System.out.print("PROJECT DETAILS\n");
 						company.displayProject(company.findProject(projectTitle));
 					}
 					break;
@@ -63,7 +61,7 @@ public class CompanyTest {
 					company.displayAllProjects();
 					break;
 				default:
-					System.out.println("Please enter valid option from the menu");
+					System.out.println("Please enter a valid option from the menu");
 			}
 		}
 	}
